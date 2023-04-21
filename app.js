@@ -44,7 +44,7 @@ fetch(url)
         // Crea una nueva card
         
         const card = document.createElement('div');
-        card.classList.add('card');
+        card.classList.add('card', 'big-card');
 
         const title = document.createElement('h2');
         title.textContent = personajeEscogido.name;
